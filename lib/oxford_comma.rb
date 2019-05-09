@@ -2,7 +2,7 @@ def oxford_comma(array)
 if array.length == 2
   array.join(" and ")
   elsif array.length >= 3
-  array.to_sentence
+  array.join(", ")
 else array.join
 end
 end
